@@ -19,12 +19,12 @@
 
 #### 登录界面
 
-![](C:\Users\JJlin\Desktop\KHDVK-3861B-hi3861\doc\项目图片\登录界面.png)
+![](./doc/项目图片/登录界面.png)
 
 #### 注册界面
 
-![](C:\Users\JJlin\Desktop\KHDVK-3861B-hi3861\doc\项目图片\注册界面.png)
+![](./doc/项目图片/注册界面.png)
 
 #### 运行界面
 
-![](C:\Users\JJlin\Desktop\KHDVK-3861B-hi3861\doc\项目图片\运行界面.png)
+![](./doc/项目图片/运行界面.png)
