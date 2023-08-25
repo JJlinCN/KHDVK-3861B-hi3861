@@ -1,0 +1,28 @@
+static_library("MQTT")
+{
+    sources =
+    [
+        "main.c",
+        "wifi_utils.c",
+        "mqtt_utils.c",
+        "Soil.c",
+        "sht40.c",
+        "oled_demo.c",
+        "oled.c",
+        "QR_Encode.c"
+        
+    ]
+    include_dirs =
+    [
+        "//device/hisilicon/hispark_pegasus/sdk_liteos/third_party/lwip_sack/include",
+        "//utils/native/lite/include",
+        "//kernel/liteos_m/components/cmsis/2.0",
+        "//base/iot_hardware/peripheral/interfaces/kits",
+        "//foundation/communication/wifi_lite/interfaces/wifiservice",
+        "///third_party/pahomqtt/MQTTPacket/src",
+        "//third_party/pahomqtt/MQTTPacket/samples",
+        "//third_party/cJSON",
+        "//vendor/hisi/hi3861/hi3861/components/at/src",
+    ]
+    cflags = [ "-Wno-unused-variable" ]
+}
